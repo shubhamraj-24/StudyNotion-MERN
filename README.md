@@ -1,5 +1,5 @@
 # StudyNotion Edtech Project
-![image](https://github.com/shubhamraj-24/StudyNotion-MERN/assets/119352786/dc53b862-32cc-475e-9756-cdaa72750fca)
+<img width="450px;" src="https://github.com/shubhamraj-24/StudyNotion-MERN/blob/main/src/assets/s1.png"/>
 
 StudyNotion is a fully functional ed-tech platform that enables users to create, consume,
 and rate educational content. The platform is built using the MERN stack, which includes
