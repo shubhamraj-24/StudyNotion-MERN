@@ -22,13 +22,50 @@ used.
 the back-end, frameworks, libraries, tools used, and data models and database schema.
 4. API Design: The description of the API design, list of API endpoints, their
 functionalities, and sample API requests and responses.
-5. Deployment: The description of the deployment process, hosting environment and
-infrastructure, and deployment scripts and configuration.
-6. Testing: The description of the testing process, types of testing, test frameworks and
-tools used.
-7. Future Enhancements: The list of potential future enhancements to the platform,
-explanation of how these enhancements would improve the platform, estimated
-timeline and priority for implementing these enhancements.
+
+## Installation
+
+### Clone the repository
+1. Fork this repository.
+2. Clone the repository: `git clone https://github.com/shubhamraj-24/StudyNotion-MERN.git`
+
+### Configure the client
+
+1. Navigate to client folder: `cd client`
+2. Install required packages: `npm i`
+
+### Configure the server
+
+1. Navigate to server folder: `cd server`
+2. Install required packages: `npm i`
+3. Set up the database and configure the environment variables by following the instructions in the next steps.
+
+### Set up the database
+
+1. Create a MongoDb Atlas Account and create a new database.
+2. Create a `.env` file in the server folder and add the following environment variables:
+
+```
+PORT= <port_to_run_node_server>
+MONGODB_URL= <postgres_connection_string>
+JWT= <JWT_secret>
+
+```
+
+### Run the application
+
+#### Run the server
+
+1. Navigate to server folder: `cd server`
+2. Start Client : `npm start`
+3. Server will be running at `http://localhost:8080`
+
+#### Run the client
+
+1. Navigate to server folder: `cd client`
+2. Start Client : `npm start`
+3. Open the application in your browser at `http://localhost:3000`
+
 
 In summary, StudyNotion is a versatile and intuitive ed-tech platform that is designed to
 provide an immersive learning experience to students and a platform for instructors to
